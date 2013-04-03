@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+struct traduction { char *a; char *b;};
+
+char *recherche(struct traduction *dico, int n, char *s){
+  char debut, fin;
+  while(debut != 
+}
+
+main(){
+
+}
