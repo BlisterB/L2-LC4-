@@ -78,8 +78,11 @@ char * reconstruit(char **tab){
     chaine = strcat(chaine, tab[i]);
     i++;
   }
-  printf("La chaine obtenue par concatenation est : \"%s\"\n", chaine);
-  
+}
+
+char *traducteur(struct traduction *dictionnaire, int n, char *s){
+  char* chaine = recherche(dictionnaire, n, s);
+  return chaine;
 }
 
 main(){
@@ -108,11 +111,10 @@ main(){
   //Q3
   char* chaine3 = "ba bu zo meu";
   char** tabChar3 = decoupe(chaine3);
-  int i3 = 0;
-  for(i3 = 0; i3 < 5; i3++){
-    printf("%s.\n", tabChar3[i3]);
-  }
 
   //Q4
   reconstruit(tabChar3);
+
+  //Q5
+  printf("%s\n", traducteur(dico, n, "mot1"));
 }
