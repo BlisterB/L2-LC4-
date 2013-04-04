@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+main(){
+  int t[3];
+  printf("&t : ", &t);
+  printf("&(t[0]) : ", &(t[0]));
+  printf("&(t[1]) : ", &(t[1]));
+  printf("t : ", t);
+  printf("t+1 : ", t+1);
+  
+}

@@ -1,0 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+main(){
+  prinf("Adresse renvoyee par malloc(1) : ", &malloc(1));
+}

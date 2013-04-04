@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+main(){
+  struct st3 { int a, b, c; };
+  struct st3 st {1, 2, 3};
+  int *t = (int *) &st;
+}

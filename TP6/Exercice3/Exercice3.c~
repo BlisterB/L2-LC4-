@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+//Q8
+double valeur_polynome(polynome *P, polynome *Q){
+
+}
+
+main(){
+
+}

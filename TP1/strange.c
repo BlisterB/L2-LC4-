@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+  int i;
+  int t[128];
+  for(i = 0; i < 128; i++) printf("valeur %d: %d\n", i, t[i]);
+  return 0;
+}

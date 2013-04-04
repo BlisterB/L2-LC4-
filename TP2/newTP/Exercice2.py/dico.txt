@@ -1,0 +1,12 @@
+Gauthier:Geek
+mot0:traduction0
+mot1:traduction1
+mot10:traduction10
+mot2:traduction2
+mot3:traduction3
+mot4:traduction4
+mot5:traduction5
+mot6:traduction6
+mot7:traduction7
+mot8:traduction8
+mot9:traduction9

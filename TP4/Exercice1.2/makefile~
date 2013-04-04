@@ -1,0 +1,8 @@
+main.o : main.c hello.h
+	gcc -c main.c hello.h -o main.o
+
+hello.o : hello.c
+	gcc -c hello.c -o hello.o
+
+hello : hello.o main.o
+	gcc hello.o main.o -o hello

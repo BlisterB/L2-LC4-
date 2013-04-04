@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+char *recherche(char *s, char c){
+ 
+}
+
+main(){
+  char chaine[] = "Il était une fois";
+  printf("%s", chaine);
+}

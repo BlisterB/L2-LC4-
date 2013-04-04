@@ -1,0 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]){
+  printf("Vous avez entré %d arguments", argc - 1);
+}
